@@ -1,13 +1,15 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
+  "name": "uapdhyayravi.com",
+  "version": "1.0.0",
+  "description": "Project for personal website of Ravi Upadhyay. This website will be used as tool to connect with the world and do research and experiments.",
   "private": true,
   "keywords": [
-    ""
+    "upadhyayravi.com",
+    "ravi",
+    "upadhyay"
   ],
-  "license": "",
-  "author": "",
+  "license": "Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)",
+  "author": "Ravi Upadhyay (raviupadhyay.bkn@gmail.com)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config webpack.config.dev.js",
