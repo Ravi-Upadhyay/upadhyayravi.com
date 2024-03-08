@@ -12,10 +12,11 @@
   "author": "Ravi Upadhyay (raviupadhyay.bkn@gmail.com)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open --config webpack.config.dev.js",
+    "start": "web-dev-server --node-resolve --open --watch",
     "build": "webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
+    "@web/dev-server": "^0.4.3",
     "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.89.0",
